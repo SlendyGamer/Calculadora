@@ -30,6 +30,7 @@ float divide(float N1)
         }while (divisor == 0);
         
         return N1/divisor;
+        
     }
 
 int main()
