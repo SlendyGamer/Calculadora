@@ -20,7 +20,16 @@ float multiply(float N1)
 
 float divide(float N1)
     {
-
+        float divisor = 0;
+        do{
+        printf("Informe o divisor: ");
+        scanf("%f", &divisor);
+        if(divisor == 0){
+            printf("O divisor nao pode ser 0\n");
+        }
+        }while (divisor == 0);
+        
+        return N1/divisor;
     }
 
 int main()
